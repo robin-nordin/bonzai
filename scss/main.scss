@@ -1,0 +1,64 @@
+@import "components";
+@import "variables";
+@import "mixins";
+@import "typography";
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background-color: $background;
+}
+
+// ------------------ About.html ------------------ //
+.video-wrap {
+  @include center;
+  width: 100%;
+  .video {
+    border-radius: 4px;
+    max-width: 100%;
+    height: 25rem;
+    margin-top: 2rem;
+  }
+}
+
+.wrapper {
+  @include center;
+  flex-direction: column;
+  width: 100%;
+
+  .cards {
+    @include center;
+    background-color: $white;
+    margin: 1rem 2rem 0 2rem;
+    border-radius: 4px;
+    max-width: 1000px;
+    width: 100%;
+  }
+
+  section img {
+    height: 15rem;
+    max-width: 100%;
+    border-radius: 4px;
+  }
+
+  .info {
+    h2,
+    p {
+      margin: 0 1rem 0 2rem;
+    }
+  }
+}
+
+@media screen and (max-width: 660px) {
+  .cards {
+    @include center;
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+  .info {
+    margin: 1rem;
+  }
+}
