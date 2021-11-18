@@ -1,5 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Maven+Pro&family=Questrial&display=swap");
-@media screen and (max-width: 740px) {
+@media screen and (max-width: 755px) {
   .links a {
     display: none;
   }
@@ -26,7 +26,7 @@
     text-align: left;
   }
 }
-@media screen and (max-width: 940px) {
+@media screen and (max-width: 950px) {
   .search-bar {
     display: none;
   }
