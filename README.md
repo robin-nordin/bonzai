@@ -1,2 +1,2 @@
-# bonzai
+# bonz.ai
  School project
