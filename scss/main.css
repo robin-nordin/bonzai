@@ -201,6 +201,10 @@ button {
   font-weight: medium;
 }
 
+.card-list {
+  font-family: "Questrial", sans-serif;
+}
+
 * {
   box-sizing: border-box;
 }
@@ -208,6 +212,75 @@ button {
 body {
   margin: 0;
   background-color: #dbdede;
+}
+
+.banner-background {
+  height: 400px;
+  width: 100%;
+}
+
+.banner-search {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: -1rem;
+}
+
+.options {
+  display: flex;
+}
+
+select {
+  padding: 2rem;
+  width: 15rem;
+}
+
+.search-bar {
+  display: flex;
+  justify-content: center;
+  margin-top: -2rem;
+  padding: 0.3rem;
+}
+
+.search-button {
+  width: 15rem;
+  background-color: #f9b554;
+}
+
+.card-image {
+  width: 40%;
+  height: auto;
+}
+
+.card {
+  display: flex;
+  align-items: center;
+  height: auto;
+  background-color: white;
+  margin: 2rem;
+}
+
+.card-text {
+  align-self: center;
+  padding: 2rem;
+  width: 25%;
+  margin-bottom: 7rem;
+}
+
+.card-list {
+  margin: 5rem 0 10rem 10rem;
+}
+
+.bookButton {
+  background-color: #f9b554;
+  border: none;
+  padding: 0.4rem;
+  border-radius: 4px;
+  cursor: pointer;
+  color: #000000;
+  text-decoration: none;
+  box-shadow: 4px 4px 5px #594d4a;
 }
 
 .video-wrap {
